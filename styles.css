@@ -42,6 +42,15 @@ h1, h2, h3, p {
     width: 70%;
 }
 
+.entry-title{
+    margin-left: 10px;
+}
+
+.entry-info{
+    font-style: italic;
+    margin-left: 20px;
+}
+
 .blog-image-set{
     display: flex;
     justify-content: center;
@@ -58,6 +67,21 @@ h1, h2, h3, p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.project-name {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: darkslateblue;
+    color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
 }
 
 .blog-entry{
@@ -77,7 +101,10 @@ h1, h2, h3, p {
 
 .project img{
     max-width: 100%;
-    border-radius: 3px;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: darkslateblue;
 }
 
 .skill-list{
@@ -173,6 +200,9 @@ input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .button:hover{
     width: 210px;
