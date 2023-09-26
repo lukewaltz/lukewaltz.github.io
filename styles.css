@@ -190,9 +190,24 @@ input:focus {
     border: 1px solid #aaa;
 }
 
+.nav-button li{
+    margin-top: 6px;
+}
+
+.nav-button{
+    height: 30px;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.nav-button:hover{
+    background-color: white;
+}
+
+
 .button{
     position: sticky;
-    background-color: lightblue;
+    background-color: darkslateblue;
     padding: 5px, 7px;
     border-radius: 8px;
     width: 200px;
@@ -204,6 +219,11 @@ input:focus {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.button a{
+    color: lightblue;
+}
+
 .button:hover{
     width: 210px;
 }
