@@ -23,26 +23,60 @@ h1, h2, h3, p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.about {
+.about, .project, .blog-entry {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+}
+
+.about{
+    width: 600px;
+}
+
+.project{
+    width: 750px;
+}
+
+.resume{
+    width: 70%;
+}
+
+.blog-image-set{
+    display: flex;
+    justify-content: center;
+    width: 960px;
+    height: fit-content;
+}
+.blog-image{
+    width: 300px;
+    padding: 10px, 10px, 10px, 10px;
+    border-radius: 10px;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-entry{
+    width: 850px;
 }
 
 .about-text{
     text-align: center;
-    font: 18pt;
+    font-size: larger;
 }
 
 .about-image img{
-    max-width: 100%;
-    border-radius: 10px;
+    max-width: 300px;
+    border-radius: 20px;
+    align-self: center;
 }
 
 .project img{
-    max-width: 60%;
+    max-width: 100%;
     border-radius: 3px;
 }
 
