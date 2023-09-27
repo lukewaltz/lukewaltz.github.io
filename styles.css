@@ -216,6 +216,23 @@ li {
     background-color: white;
 }
 
+/* all LINK states formatting */
+
+a:link {
+    color: darkslateblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:visited {
+    color: darkslateblue;
+}
+a:active, a:hover {
+    color: darkslategray;
+}
+input:focus {
+    border: 1px solid #aaa;
+}
+
 /* CSS for button class */
 
 .button{
@@ -239,21 +256,4 @@ li {
 
 .button:hover{
     width: 210px;
-}
-
-/* all LINK states formatting */
-
-a:link {
-    color: darkslateblue;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-a:visited {
-    color: darkslateblue;
-}
-a:active, a:hover {
-    color: darkslategray;
-}
-input:focus {
-    border: 1px solid #aaa;
 }
