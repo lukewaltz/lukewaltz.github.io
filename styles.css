@@ -18,9 +18,9 @@ main {
     align-items: center;
   }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     color: darkslateblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .about, .project, .blog-entry {
@@ -204,6 +204,8 @@ li {
 
 .nav-button li{
     margin-top: 6px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .nav-button{
@@ -252,6 +254,7 @@ input:focus {
 
 .button a{
     color: lightblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button:hover{
