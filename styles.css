@@ -175,14 +175,15 @@ li {
     display: flex;
     flex-direction: row;
     position: relative;
-    right: 30px;
-    list-style: none;
+    list-style: none;    
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
   }
   
   .navbar a {
     color: white;
     font-weight: bold;
-    margin: 0 12px;
     text-decoration: none;
     letter-spacing: 2px;
   }
@@ -202,16 +203,26 @@ li {
     height: 2.5rem;
   }
 
-.nav-button li{
-    margin-top: 6px;
+.nav-button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 30px;
+    width: fit-content;
+    margin: 0px 15px;
+    border-radius: 4px;
+    font-size: large;
+    text-align: center;
 }
 
-.nav-button{
-    height: 30px;
-    margin: 2px;
-    border-radius: 4px;
+.logo{
+    padding-left: 20px;
+}
+
+.nav-list a{
+    margin: 0px, 12px;
 }
 
 .nav-button:hover{
