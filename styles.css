@@ -169,6 +169,8 @@ li {
     height: 50px;
 }
 
+/* CSS for nav styling */
+
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -200,23 +202,6 @@ li {
     height: 2.5rem;
   }
 
-/* all LINK states formatting */
-
-a:link {
-    color: darkslateblue;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-a:visited {
-    color: darkslateblue;
-}
-a:active, a:hover {
-    color: darkslategray;
-}
-input:focus {
-    border: 1px solid #aaa;
-}
-
 .nav-button li{
     margin-top: 6px;
 }
@@ -231,6 +216,7 @@ input:focus {
     background-color: white;
 }
 
+/* CSS for button class */
 
 .button{
     position: sticky;
@@ -253,4 +239,21 @@ input:focus {
 
 .button:hover{
     width: 210px;
+}
+
+/* all LINK states formatting */
+
+a:link {
+    color: darkslateblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:visited {
+    color: darkslateblue;
+}
+a:active, a:hover {
+    color: darkslategray;
+}
+input:focus {
+    border: 1px solid #aaa;
 }
